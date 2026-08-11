@@ -1,0 +1,10 @@
+# Ignore all except script.py, README.md, and .gitignore
+*
+!script.py
+!README.md
+!.gitignore
+
+# Folders
+.venv/
+certificates_output/
+__pycache__/
