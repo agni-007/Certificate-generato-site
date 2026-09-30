@@ -1,10 +1,33 @@
-# Ignore all except script.py, README.md, and .gitignore
-*
-!script.py
-!README.md
-!.gitignore
-
-# Folders
-.venv/
-certificates_output/
+# Python
 __pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv*/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Temporary / generated output
+temporary/
+certificates_output/
+*.zip
+!frontend/public/**/*.zip
+
+# Local tools
+.DS_Store
+.idea/
+.vscode/
